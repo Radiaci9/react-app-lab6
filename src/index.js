@@ -19,9 +19,9 @@ ReactDOM.render(
             <div>
               <NavBar/>
               <Switch>
-                  <Route exact string path="/" component={Home}/>
-                  <Route exact string path="/anotherPage" component={AnotherPage}/>
-                  <Route exact string path="/repositoriesPage" component={RepositoriesPage}/>
+                  <Route exact string path="/react-app-lab6/" component={Home}/>
+                  <Route exact string path="/react-app-lab6/anotherPage" component={AnotherPage}/>
+                  <Route exact string path="/react-app-lab6/repositoriesPage" component={RepositoriesPage}/>
               </Switch>
             </div>
         </Router>
